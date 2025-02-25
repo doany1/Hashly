@@ -10,9 +10,6 @@ Turns out, pretty hard. But after a week of Googling, swearing at SSH keys, and 
 
 ## The Tools You’ll Need  
 - An AWS EC2 free tier instance (Ubuntu)  
-- Basic terminal fluency (or a willingness to pretend)  
-- A keyboard 
-
 ---
 
 ## Step 1: Connect to Your EC2 Instance  
@@ -28,7 +25,7 @@ What went wrong:
   ```bash  
   chmod 400 ~/Downloads/my-key.pem  # SSH keys are divas about permissions  
   ```  
-  “Connection timed out”**? Check your EC2 security group—it needs inbound SSH access (port 22).  
+  **“Connection timed out”**? Check your EC2 security group—it needs inbound SSH access (port 22).  
 
 ---
 
