@@ -38,7 +38,7 @@ except Exception as e:
 
 # Parse the hash file and support both 3-field and 4-field formats (preserving original case)
 documents = []
-with open("hash01.txt", "r", encoding="utf-8", errors="ignore") as file:
+with open("hash.txt", "r", encoding="utf-8", errors="ignore") as file:
     for line in file:
         line = line.strip()
         if not line:
