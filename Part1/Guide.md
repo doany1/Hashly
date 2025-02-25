@@ -1,4 +1,4 @@
-## Terminal Tales Part 1 – How I Built My Cybersecurity Project from Scratch
+## Part 1 – How I Built My Cybersecurity Project from Scratch
 
 
 
