@@ -1,6 +1,6 @@
-** Terminal Tales Part 1 – How I Built My Cybersecurity Project from Scratch**  
+## Terminal Tales Part 1 – How I Built My Cybersecurity Project from Scratch
 
-```markdown
+
 
 It was 2 AM. The coffee had gone cold, and my terminal blinked back at me like a smug owl. *“Build a hash lookup tool,”* I’d told myself earlier that day. *“How hard could it be?”*  
 
@@ -8,14 +8,14 @@ Turns out, pretty hard. But after a week of Googling, swearing at SSH keys, and 
 
 ---
 
-## **The Tools You’ll Need**  
+## The Tools You’ll Need  
 - An AWS EC2 free tier instance (Ubuntu)  
 - Basic terminal fluency (or a willingness to pretend)  
 - A keyboard 
 
 ---
 
-## **Step 1: Connect to Your EC2 Instance**  
+## Step 1: Connect to Your EC2 Instance  
 ### (Or: “Why Is SSH So Fussy?”)  
 
 I stared at the AWS console, copied my instance’s public IP, and typed:  
@@ -23,16 +23,16 @@ I stared at the AWS console, copied my instance’s public IP, and typed:
 ssh -i ~/Downloads/my-key.pem ubuntu@<your-ec2-ip>  
 ```  
 
-**What went wrong:**  
-- **Permission denied?** Fixed with:  
+What went wrong:  
+- Permission denied? Fixed with:  
   ```bash  
   chmod 400 ~/Downloads/my-key.pem  # SSH keys are divas about permissions  
   ```  
-- **“Connection timed out”**? Check your EC2 security group—it needs inbound SSH access (port 22).  
+  “Connection timed out”**? Check your EC2 security group—it needs inbound SSH access (port 22).  
 
 ---
 
-## **Step 2: Install the Essentials**  
+## Step 2: Install the Essentials 
 ### (Or: “sudo apt install patience”)  
 
 First rule of Linux: *update everything*.  
