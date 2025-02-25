@@ -117,7 +117,7 @@ If you see `{"ok":true}`, pop the (non-alcoholic) champagne.
 ### (Or: “The Moment of Truth”)  
 
 ### Import Your Hash Dataset  
-Assuming you have a `hashes.csv` file:  
+Assuming you have a `hash.txt` file. if you don't have read this 
 ```bash  
 python3 import_hashes.py    
 ```  
