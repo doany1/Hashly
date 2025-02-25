@@ -187,7 +187,7 @@ sudo nginx -t  # Points you to the line causing trouble
 ## **Why This Setup Rocks**  
 1. **Free Forever**: No domain fees, no SSL costs.  
 2. **Auto-Renewing Certificates**: Certbot handles it.  
-3. **Looks Professional**:  `https://hashly.duckdns.org/` 
+3. **Looks Professional**:  (https://hashly.duckdns.org/)
 
 ---
 
