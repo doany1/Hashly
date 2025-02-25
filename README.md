@@ -1,6 +1,6 @@
 # Hashly 🔒  
 A terminal-to-browser cybersecurity tool for hash lookups.  
-
+[checkout](https://hashly.duckdns.org/)
 ## Features  
 - Search hashes via CLI or web interface  
 - Secured with HTTPS (DuckDNS + Let’s Encrypt)  
