@@ -4,7 +4,9 @@ A terminal-to-browser cybersecurity tool for hash lookups.
 ## Features  
 - Search hashes via CLI or web interface  
 - Secured with HTTPS (DuckDNS + Let’s Encrypt)  
-- Dockerized deployment  
+- Dockerized deployment
+- 
+⬇️You can also do it ⬇️
 
 ## Quick Start  
 - [Read part1: Guide.md](https://github.com/doany1/Hashly-/blob/c6c2df18d3c2336408990d02d7a55f5b408a4ddd/Part1/Guide.md)
