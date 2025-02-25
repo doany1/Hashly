@@ -7,5 +7,5 @@ A terminal-to-browser cybersecurity tool for hash lookups.
 - Dockerized deployment  
 
 ## Quick Start  
-**- Read part1:Guide.md**
-**- Read part2:Guide.md**
+- Read part1:Guide.md
+- Read part2:Guide.md
