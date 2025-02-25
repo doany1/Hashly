@@ -5,7 +5,7 @@ A terminal-to-browser cybersecurity tool for hash lookups.
 - Search hashes via CLI or web interface  
 - Secured with HTTPS (DuckDNS + Let’s Encrypt)  
 - Dockerized deployment
-- 
+ 
 ⬇️You can also do it ⬇️
 
 ## Quick Start  
