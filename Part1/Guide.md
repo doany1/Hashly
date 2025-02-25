@@ -163,7 +163,7 @@ source env/bin/activate
 ---
 
 ## **What’s Next?**  
-In [Part 2](Hashly-/Part2/Guide.md), I’ll show you how to:  
+In [Part 2](Part2/Guide.md), I’ll show you how to:  
 - Turn this terminal tool into a secure web app  
 - Get a free domain with HTTPS (no credit card required)  
 
