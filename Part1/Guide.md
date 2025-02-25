@@ -23,7 +23,7 @@ ssh -i ~/Downloads/my-key.pem ubuntu@<your-ec2-ip>
 What went wrong:  
 - Permission denied? Fixed with:  
   ```bash  
-  chmod 400 ~/Downloads/my-key.pem  # SSH keys are divas about permissions  
+  chmod 400 ~/Downloads/my-key.pem   
   ```  
   **“Connection timed out”**? Check your EC2 security group—it needs inbound SSH access (port 22).  
 
@@ -35,7 +35,7 @@ What went wrong:
 First rule of Linux: *update everything*.  
 
 ```bash  
-sudo apt update && sudo apt upgrade -y  # -y = "Don’t ask me, just do it"  
+sudo apt update && sudo apt upgrade -y   
 ```  
 
 Then, the toolkit:  
@@ -51,7 +51,7 @@ sudo apt install -y git python3 python3-pip python3-venv docker.io
 *Don’t forget to start Docker:*  
 ```bash  
 sudo systemctl start docker  
-sudo systemctl enable docker  # Make it survive reboots  
+sudo systemctl enable docker   
 ```  
 
 ---
@@ -62,13 +62,13 @@ sudo systemctl enable docker  # Make it survive reboots
 Python dependencies can clash like toddlers in a sandbox. Virtual environments save the day:  
 
 ```bash  
-python3 -m venv env  # Creates a folder named "env"  
-source env/bin/activate  # Enter the bubble  
+python3 -m venv env 
+source env/bin/activate    
 ```  
 
 *Now install the critical library:*  
 ```bash  
-pip install typesense==0.14.0  # The search engine client  
+pip install typesense==0.14.0 
 ```  
 
 **Pro Tip:** Always document dependencies in `requirements.txt`!  
@@ -82,7 +82,7 @@ pip install typesense==0.14.0  # The search engine client
 
 ### Pull the Docker Image  
 ```bash  
-docker pull typesense/typesense:0.24.1  # Specific version = fewer surprises  
+docker pull typesense/typesense:0.24.1  
 ```  
 
 ### Generate an API Key (Like a Boss)  
@@ -119,7 +119,7 @@ If you see `{"ok":true}`, pop the (non-alcoholic) champagne.
 ### Import Your Hash Dataset  
 Assuming you have a `hashes.csv` file:  
 ```bash  
-python3 import_hashes.py  # Your custom script to load data into Typesense  
+python3 import_hashes.py    
 ```  
 
 ### Search for a Hash  
@@ -150,7 +150,7 @@ docker logs <container-id>  # Find the ID with `docker ps`
 ### 3. **“Python Can’t Find typesense”**  
 **Did you activate the virtual environment?**  
 ```bash  
-source env/bin/activate  # Your prompt should show (env)  
+source env/bin/activate    
 ```  
 
 ---
@@ -158,7 +158,7 @@ source env/bin/activate  # Your prompt should show (env)
 ## **Why This Setup Rocks**  
 1. **Terminal-Only**: No GUIs, no distractions.  
 2. **Dockerized Search Engine**: Isolated, portable, and easy to update.  
-3. **Reproducible**: Share the `requirements.txt` and Docker commands for team setups.  
+  
 
 ---
 
@@ -166,4 +166,4 @@ source env/bin/activate  # Your prompt should show (env)
 In [Part 2](BLOG_PART2.md), I’ll show you how to:  
 - Turn this terminal tool into a secure web app  
 - Get a free domain with HTTPS (no credit card required)  
-- Stop your friends from mocking your “1980s-style” workflow  
+
