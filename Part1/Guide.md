@@ -71,7 +71,7 @@ source env/bin/activate
 pip install typesense==0.14.0 
 ```  
 
-**Pro Tip:** Always document dependencies in `requirements.txt`!  
+
 
 ---
 
