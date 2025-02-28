@@ -21,7 +21,7 @@ def initialize_typesense():
             'port': '8108',
             'protocol': 'http'
         }],
-        'api_key': 'Nf18/I+ojFgMdSmzDmvJC9nOknI29bbTUDM8hse7qKw=',
+        'api_key': 'Your api key', #add here your api key
         'connection_timeout_seconds': 2
     })
 
