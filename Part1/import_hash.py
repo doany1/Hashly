@@ -8,7 +8,7 @@ client = typesense.Client({
         'port': '8108',
         'protocol': 'http'
     }],
-    'api_key': 'Nf18/I+ojFgMdSmzDmvJC9nOknI29bbTUDM8hse7qKw=',  # Replace with your actual API key
+    'api_key': 'your api key',  # Replace with your actual API key
     'connection_timeout_seconds': 2
 })
 
