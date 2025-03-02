@@ -1,6 +1,6 @@
 # Hashly 🔒 
 
-**Hashly** is a lookup tool designed to quickly determine if a given hash has been precomputed—**it does not crack hashes in real time**. Here’s how it works:
+**Hashly** is a lookup tool designed to quickly determine if a given hash has been precomputed—**it does not crack hashes in real time**. 
 [checkout](https://hashly.duckdns.org/)
 
 ---
