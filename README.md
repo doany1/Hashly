@@ -9,7 +9,7 @@
 ### How Hashly Works
 
 1. **Database Generation:**  
-   Instead of gathering hashes from public internet sources, Hashly currently builds its database using the [rockyou.txt](https://wiki.skullsecurity.org/index.php?title=Passwords) wordlist. For each password in this list, Hashly generates hashes using several algorithms:  
+   Hashly currently builds its database using the [rockyou.txt](https://wiki.skullsecurity.org/index.php?title=Passwords) wordlist. For each password in this list, Hashly generates hashes using several algorithms:  
    - **SHA-1**  
    - **SHA-256**  
    - **SHA-512**  
